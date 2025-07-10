@@ -10,17 +10,25 @@ In the weird circumstance that the project doesn't work in your machine please c
 ### Getting the basic data
 > Clone the repo
 
-```git clone https://github.com/lorapemo/HumanExperience_Test_07-025.git```
+```
+git clone https://github.com/lorapemo/HumanExperience_Test_07-025.git
+```
 
-```cd backend_lorenzoperez_humanexperience```
+```
+cd backend_lorenzoperez_humanexperience
+```
 
 > Switch to dev branch
 
-```git checkout dev```
+```
+git checkout dev
+```
 
 > Install the dependencies
 
-```npm install```
+```
+npm install
+```
 
 ### Config your environment
 You´ll need to create two files in the root folder (same level as this Readme.md):
