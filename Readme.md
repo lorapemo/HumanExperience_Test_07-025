@@ -15,7 +15,7 @@ git clone https://github.com/lorapemo/HumanExperience_Test_07-025.git
 ```
 
 ```
-cd backend_lorenzoperez_humanexperience
+cd HumanExperience_Test_07-025
 ```
 
 > Switch to dev branch
