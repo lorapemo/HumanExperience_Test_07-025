@@ -5,8 +5,12 @@ import userRoutes from './routes/user';
 import authRoutes from './routes/auth';
 import { authenticate } from './middleware/auth';
 
+
 const app = express();
+const cors = require('cors')
+
 app.use(express.json());
+app.use(cors());
 
 AppDataSource.initialize()
   .then(() => {
