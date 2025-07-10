@@ -135,10 +135,16 @@ To run this you'll need a JSON, add the following one in the Body>JSON section o
 
 #### Get
 > Once logged in.
-> Fetch all existing tasks using this Endpoint
+> Fetch all existing tasks related to an userID using this Endpoint
 
 ```
-http://localhost:3000/task
+http://localhost:3000/task/:id
+```
+
+You'll need a User id, try using the following:
+
+```
+http://localhost:3000/task/1
 ```
 
 #### Put
